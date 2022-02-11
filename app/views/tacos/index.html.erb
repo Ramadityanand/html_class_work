@@ -1,0 +1,16 @@
+<% fillings = ["Carnitas", "Fish", "Chicken", "Veggie","Beans"]%>
+
+
+<h1>I love tacos!</h1>
+<ul>
+    <%for filling in fillings%>
+        <li><%= filling %></li>
+    <%end%>
+<ul>
+
+
+<% 
+# This is a way to comment using ruby
+%>
+
+<p>Currently there are <%=fillings.size%> kinds of tacos</p>
